@@ -1,0 +1,11 @@
+Deployment Commands: 
+JAR Extractor Command: java -jar (JAR File Name).jar --> In JAR File Folder Directory Open Command Prompt And Execute This Command
+For Extracted JAR Based Application's Port Reassignment: java -jar (JAR File Name).jar --server.port=(New Port) --> After The JAR Extraction In Same Command Prompt
+	
+Deployment Points: 
+1. Need to build and generate JARs for all the applications.
+2. Keep all those generated JARs in server environment. 
+3. Extract all the JARs one by one inside the server environment. 
+4. During the JAR extraction the internal embedded tomcat server will start the application with configured port number.
+5. Change the extracted JAR based application's configured port number if any other application is running on the same port. 
+	
