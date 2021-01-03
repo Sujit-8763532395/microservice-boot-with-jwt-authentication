@@ -6,6 +6,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
+//DAV Student
 public class DavStudentApplication {
 	
 	public static void main(String[] args) {

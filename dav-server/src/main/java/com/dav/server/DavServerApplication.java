@@ -6,6 +6,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
 @EnableEurekaServer		
+//DAV Server
 public class DavServerApplication {
 	
 	public static void main(String[] args) {
